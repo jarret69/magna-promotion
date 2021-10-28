@@ -1,0 +1,20 @@
+:root {
+    --mg-black:#252525;
+    --mg-blue:#193377;
+    --mg-light-blue:#01b1fd;
+}
+
+.blackBackrgound{
+    background-color: var(--mg-black);
+}
+
+p.orientation{
+    color: #fff;
+    writing-mode: vertical-rl !important;
+    text-orientation: mixed !important;
+} 
+
+
+.orientation{
+    padding
+}
