@@ -91,7 +91,7 @@ p.orientation{
  #banner{
     /*padding: 5%; */
     width: 100vh;
-    min-height: 650px;
+    min-height: 550px;
      background-image: url(./media/banner-1920x650.png);
      background-repeat: no-repeat;
      background-size: contain !important;
