@@ -38,6 +38,7 @@ body {
     
     min-height: 65px;
     position: relative;
+    
     z-index: 10;
     background-color: var(--mg-light-black);
 }
@@ -47,7 +48,7 @@ body {
     height: auto;
     min-height: 65px;
     padding: 25%;
-    margin-top: -37%;
+    margin-top: -38.6%;
     padding: 2rem;
     background-color: var(--mg-light-black);
 }
@@ -83,9 +84,9 @@ p.orientation{
  }
 
  #banner{
-     padding: 5%;
-     width: 1472px;
-     height: 650px;
+    /*padding: 5%; */
+    width: 100vh;
+    min-height: 650px;
      background-image: url(./media/banner-1920x650.png);
      background-repeat: no-repeat;
      background-color: #00b1ff;
