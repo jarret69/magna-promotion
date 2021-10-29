@@ -31,7 +31,7 @@ body {
     }
 
 .blackBackrgound{
-    background-color: var(--mg-light-black);
+    background-color: #f9f9f9;
 }
 
 .logo{
@@ -40,17 +40,17 @@ body {
     position: relative;
     
     z-index: 10;
-    background-color: var(--mg-light-black);
+    background-color: #f9f9f9;
 }
 
 .logo img{
-    width: 190%;
+    width: 210%;
     height: auto;
     min-height: 65px;
     padding: 25%;
     margin-top: -38.6%;
     padding: 2rem;
-    background-color: var(--mg-light-black);
+    background-color: #f9f9f9;
 }
 
 p.orientation{
@@ -72,8 +72,13 @@ p.orientation{
      margin:5%;
 }
 
+.sidebar-icons{
+
+    list-style-type: none;
+}
+
 .sidebar-icons li a{
-   color:#646363 !important;
+   color:#646363a8 !important;
    padding-top:55% !important;
    
 }
@@ -93,13 +98,16 @@ p.orientation{
  }
 
  .body-content{
-     background-color: var(--mg-black);
+     background-color: #fff;
      padding: 5% 15% !important;
  }
 
  .body-content p{
-     color: #fff;
+     color: var(--mg-light-black);
      font-size: 2em !important;
+ }
+ .col-9{
+    width: 100% !important;
  }
 .col-9 h3 span{
     font-family: 'Rouge Script', cursive !important;
@@ -121,7 +129,7 @@ p.orientation{
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
-#contact input[type="url"],
+#contact input[type="date"],
 #contact textarea,
 #contact button[type="submit"] {
   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
@@ -158,7 +166,7 @@ fieldset {
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
-#contact input[type="url"],
+#contact input[type="date"],
 #contact textarea {
   width: 100%;
   border: 1px solid #ccc;
@@ -170,7 +178,7 @@ fieldset {
 #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
 #contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
+#contact input[type="date"]:hover,
 #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
@@ -231,12 +239,15 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-
+.formEx{
+    padding: 5px !important;
+    border: solid 1px#aaa;
+}
 /*-----------------------  Form ends -----------------*/
 
 footer{
     padding:5px;
     width: 100%;
     max-height: 4rem;
-    background-color: var(--mg-light-black);
+    background-color: rgb(233, 233, 233);
 }
