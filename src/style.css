@@ -149,7 +149,9 @@ p.orientation{
     font-family: 'Rouge Script', cursive !important;
     color:var(--mg-light-blue);
 }
-
+.terms{
+  display: flex;
+}
 
  /*--------------------------- Contact Form -------------------------*/
 
