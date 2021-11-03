@@ -23,6 +23,7 @@
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+        <script src="http://developers.marketo.com/blog/wp-content/uploads/2015/01/geolib.js"></script>
 
     </head>
     <body>
@@ -70,6 +71,7 @@
                         <h1 style="color:#252525; font-size:4em;font-weight: 800; position: relative;z-index: 3;">EARN REWARDS TODAY</h1>
                         <p>Use your Scotiabank Magna Mastercard from November 1, 2021 to January 21, 2022 for a chance to Win 1,500 Magna points!</p>
                         <a href="./src/media/Magna Giveaway Promotion Terms and Conditions 2021 BGLC final v3.pdf">terms and Conditions</a>
+                        <br /><button onclick="getLocation()">Click this button to get nearest Marketo office to you.</button><br /></p><p id="phonenumber"></p>
                     </div>
                     <div class="col">
                         <div id ="form-container" class="container animate__flipInX animate__delay-2s">  
@@ -105,10 +107,8 @@
                                     <input class="formEx" placeholder="to" type="date" name="Employment current date " tabindex="4">
                                   </div>
                               </fieldset>
-
-                                <input type="checkbox" id="agreement" name="Consent" required>
                                 <label style="font-size:17px !important;" for="agreement">I  consent to the disclosure of my personal information to Scotiabank Jamaica Limited for the purpose of facilitating<br /> a pre-qualiﬁcation credit check for a Scotiabank MAGNA MasterCard credit card</label>
-                                 
+                                <input type="checkbox" id="agreement" name="Consent" required>
                               <fieldset>
                                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                               </fieldset>
