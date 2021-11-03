@@ -167,6 +167,14 @@ p.orientation{
   text-decoration: none !important;
 }
 
+@media only screen and (max-width: 600px){
+  .terms {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 9.5%;
+ }
+}
+
  /*--------------------------- Contact Form -------------------------*/
 
 
