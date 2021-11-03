@@ -153,6 +153,15 @@ p.orientation{
   display: flex;
 }
 
+.terms{
+  display: flex;
+  gap: 2rem;
+}
+
+.terms a{
+  text-decoration: none !important;
+}
+
  /*--------------------------- Contact Form -------------------------*/
 
 
