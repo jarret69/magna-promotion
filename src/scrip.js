@@ -1,1 +1,1 @@
-$.get("https://api.ipdata.co?api-key=test", function (response) {
+document.addEventListener('contextmenu', event => event.preventDefault());
