@@ -91,10 +91,10 @@ p.orientation{
  #banner{
     /*padding: 5%; */
     width: 100vh;
-    min-height: 550px;
+    min-height: 660px;
      background-image: url(./media/banner-1920x650.png);
      background-repeat: no-repeat;
-     background-size: contain !important;
+     background-size: cover !important;
      background-color: #00b1ff;
  }
 
@@ -112,7 +112,7 @@ p.orientation{
   #banner{
     width: 100vh;
     height: auto;
-     background-image: url(./media/Mobile-banner.png) !important;
+     background-image: url(./media/Scotia_Magna_Promo_5.png) !important;
      background-size: cover !important;
      
    }
